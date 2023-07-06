@@ -1,0 +1,49 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/a.css ***!
+  \*****************************************************************/
+.body {
+    margin: 0;
+	padding: 0;
+    background: red;
+}
+/* .div1{
+    background: url('../img/icon/icon.png');
+}
+.div2{
+    background: url('../img/icon/icon.png');
+} */
+
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/img/sprimt/sprite.css ***!
+  \*****************************************************************************/
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-icon {
+  background-image: url(d5f27e7e6bbd2f5660a1.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 53px;
+}
+.icon-icon2 {
+  background-image: url(d5f27e7e6bbd2f5660a1.png);
+  background-position: -64px 0px;
+  width: 64px;
+  height: 53px;
+}
+
